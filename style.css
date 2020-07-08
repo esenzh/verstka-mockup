@@ -42,4 +42,14 @@ body {
         border-radius: 72.2857px;
         box-shadow: -31.4286px 62.8571px 110px rgba(90, 91, 120, 0.4);
     }
+
+    .card p {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18.8571px;
+        line-height: 170%;
+        color: #ffffff;
+        margin: 73.86px 66.29px 0 47.14px;
+    }
 }
