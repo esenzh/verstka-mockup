@@ -12,9 +12,25 @@ body {
 .card{
     width: 1102.73px;
     height: 698.13px;
+    overflow-y: scroll;
+    /* padding: 173.21px 137.51px 0 126.93px; */
     background: linear-gradient(29.97deg, #000000 -12.89%, #363636 91.62%);
     border-radius: 132.222px;
     box-shadow: -26.4444px 52.8889px 92.5556px rgba(90, 91, 120, 0.4);
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+.card p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22.7333px;
+    line-height: 165%;
+    color: #ffffff;
+    margin: 173.21px 137.51px 0 126.93px;
 }
 
 
